@@ -1,0 +1,360 @@
+Archive member included because of file (symbol)
+
+/Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+                              /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/objs/simplena/src/main.o (app_dummy)
+/Users/jackiegleason/Development/Android/android-ndk-r8c/toolchains/arm-linux-androideabi-4.6/prebuilt/darwin-x86/bin/../lib/gcc/arm-linux-androideabi/4.6/libgcc.a(_thumb1_case_uqi.o)
+                              /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o) (__gnu_thumb1_case_uqi)
+/Users/jackiegleason/Development/Android/android-ndk-r8c/toolchains/arm-linux-androideabi-4.6/prebuilt/darwin-x86/bin/../lib/gcc/arm-linux-androideabi/4.6/libgcc.a(unwind-arm.o)
+                              /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/objs/simplena/src/Application.o (__aeabi_unwind_cpp_pr0)
+/Users/jackiegleason/Development/Android/android-ndk-r8c/toolchains/arm-linux-androideabi-4.6/prebuilt/darwin-x86/bin/../lib/gcc/arm-linux-androideabi/4.6/libgcc.a(libunwind.o)
+                              /Users/jackiegleason/Development/Android/android-ndk-r8c/toolchains/arm-linux-androideabi-4.6/prebuilt/darwin-x86/bin/../lib/gcc/arm-linux-androideabi/4.6/libgcc.a(unwind-arm.o) (restore_core_regs)
+/Users/jackiegleason/Development/Android/android-ndk-r8c/toolchains/arm-linux-androideabi-4.6/prebuilt/darwin-x86/bin/../lib/gcc/arm-linux-androideabi/4.6/libgcc.a(pr-support.o)
+                              /Users/jackiegleason/Development/Android/android-ndk-r8c/toolchains/arm-linux-androideabi-4.6/prebuilt/darwin-x86/bin/../lib/gcc/arm-linux-androideabi/4.6/libgcc.a(unwind-arm.o) (__gnu_unwind_execute)
+
+Discarded input sections
+
+ .note.GNU-stack
+                0x00000000        0x0 /Users/jackiegleason/Development/Android/android-ndk-r8c/platforms/android-14/arch-arm/usr/lib/crtbegin_so.o
+ .note.GNU-stack
+                0x00000000        0x0 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/objs/simplena/src/Application.o
+ .note.GNU-stack
+                0x00000000        0x0 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/objs/simplena/src/main.o
+ .note.GNU-stack
+                0x00000000        0x0 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .note.GNU-stack
+                0x00000000        0x0 /Users/jackiegleason/Development/Android/android-ndk-r8c/toolchains/arm-linux-androideabi-4.6/prebuilt/darwin-x86/bin/../lib/gcc/arm-linux-androideabi/4.6/libgcc.a(_thumb1_case_uqi.o)
+ .note.GNU-stack
+                0x00000000        0x0 /Users/jackiegleason/Development/Android/android-ndk-r8c/toolchains/arm-linux-androideabi-4.6/prebuilt/darwin-x86/bin/../lib/gcc/arm-linux-androideabi/4.6/libgcc.a(unwind-arm.o)
+ .note.GNU-stack
+                0x00000000        0x0 /Users/jackiegleason/Development/Android/android-ndk-r8c/toolchains/arm-linux-androideabi-4.6/prebuilt/darwin-x86/bin/../lib/gcc/arm-linux-androideabi/4.6/libgcc.a(libunwind.o)
+ .note.GNU-stack
+                0x00000000        0x0 /Users/jackiegleason/Development/Android/android-ndk-r8c/toolchains/arm-linux-androideabi-4.6/prebuilt/darwin-x86/bin/../lib/gcc/arm-linux-androideabi/4.6/libgcc.a(pr-support.o)
+ .note.GNU-stack
+                0x00000000        0x0 /Users/jackiegleason/Development/Android/android-ndk-r8c/platforms/android-14/arch-arm/usr/lib/crtend_so.o
+
+Memory map
+
+ ** file header
+                0x00000000       0x34
+ ** segment headers
+                0x00000034       0xe0
+
+.dynsym         0x00000114      0x6c0
+ ** dynsym      0x00000114      0x6c0
+
+.dynstr         0x000007d4      0x8c6
+ ** string table
+                0x000007d4      0x8c6
+
+.hash           0x0000109c      0x33c
+ ** hash        0x0000109c      0x33c
+
+.rel.dyn        0x000013d8       0x40
+ ** dynamic relocs
+                0x000013d8       0x40
+
+.rel.plt        0x00001418      0x198
+ ** dynamic relocs
+                0x00001418      0x198
+
+.plt            0x000015b0      0x278
+ ** PLT         0x000015b0      0x278
+
+.text           0x00001828     0x1ce8
+ .text          0x00001828       0x14 /Users/jackiegleason/Development/Android/android-ndk-r8c/platforms/android-14/arch-arm/usr/lib/crtbegin_so.o
+                0x00001828                atexit
+ .text.exit     0x0000183c       0x10 /Users/jackiegleason/Development/Android/android-ndk-r8c/platforms/android-14/arch-arm/usr/lib/crtbegin_so.o
+                0x0000183c                __on_dlclose
+ .text          0x0000184c        0x0 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/objs/simplena/src/Application.o
+ .text._ZN11Application10initWindowEP11android_app
+                0x0000184c      0x138 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/objs/simplena/src/Application.o
+                0x0000184d                _ZN11Application10initWindowEP11android_app
+ .text._ZN11Application13handleCommandEP11android_appi
+                0x00001984       0x4c /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/objs/simplena/src/Application.o
+                0x00001985                _ZN11Application13handleCommandEP11android_appi
+ .text._ZL10handle_cmdP11android_appi
+                0x000019d0       0x10 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/objs/simplena/src/Application.o
+ .text._ZN11Application3runEv
+                0x000019e0       0x3c /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/objs/simplena/src/Application.o
+                0x000019e1                _ZN11Application3runEv
+ .text          0x00001a1c        0x0 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/objs/simplena/src/main.o
+ .text.android_main
+                0x00001a1c       0x20 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/objs/simplena/src/main.o
+                0x00001a1d                android_main
+ .text          0x00001a3c        0x0 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .text.free_saved_state
+                0x00001a3c       0x28 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .text.android_app_entry
+                0x00001a64       0xb8 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .text.process_input
+                0x00001b1c       0x64 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .text.android_app_write_cmd
+                0x00001b80       0x40 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .text.onInputQueueDestroyed
+                0x00001bc0       0x40 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .text.onInputQueueCreated
+                0x00001c00       0x40 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .text.android_app_set_window
+                0x00001c40       0x58 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .text.onNativeWindowDestroyed
+                0x00001c98        0xc /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .text.onNativeWindowCreated
+                0x00001ca4        0xc /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .text.onWindowFocusChanged
+                0x00001cb0       0x10 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .text.onLowMemory
+                0x00001cc0        0xc /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .text.onConfigurationChanged
+                0x00001ccc        0xc /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .text.android_app_set_activity_state
+                0x00001cd8       0x38 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .text.onStop   0x00001d10        0xc /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .text.onPause  0x00001d1c        0xc /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .text.onResume
+                0x00001d28        0xc /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .text.onStart  0x00001d34        0xc /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .text.onSaveInstanceState
+                0x00001d40       0x50 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .text.onDestroy
+                0x00001d90       0x54 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .text.android_app_read_cmd
+                0x00001de4       0x4c /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+                0x00001de5                android_app_read_cmd
+ .text.android_app_pre_exec_cmd
+                0x00001e30       0xbc /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+                0x00001e31                android_app_pre_exec_cmd
+ .text.android_app_post_exec_cmd
+                0x00001eec       0x48 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+                0x00001eed                android_app_post_exec_cmd
+ .text.process_cmd
+                0x00001f34       0x28 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .text.app_dummy
+                0x00001f5c        0x4 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+                0x00001f5d                app_dummy
+ .text.ANativeActivity_onCreate
+                0x00001f60      0x178 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+                0x00001f61                ANativeActivity_onCreate
+ .text          0x000020d8       0x14 /Users/jackiegleason/Development/Android/android-ndk-r8c/toolchains/arm-linux-androideabi-4.6/prebuilt/darwin-x86/bin/../lib/gcc/arm-linux-androideabi/4.6/libgcc.a(_thumb1_case_uqi.o)
+                0x000020d9                __gnu_thumb1_case_uqi
+ .text          0x000020ec      0xddc /Users/jackiegleason/Development/Android/android-ndk-r8c/toolchains/arm-linux-androideabi-4.6/prebuilt/darwin-x86/bin/../lib/gcc/arm-linux-androideabi/4.6/libgcc.a(unwind-arm.o)
+                0x00002930                __aeabi_unwind_cpp_pr0
+                0x00002928                __aeabi_unwind_cpp_pr1
+                0x00002920                __aeabi_unwind_cpp_pr2
+                0x000024b0                _Unwind_VRS_Get
+                0x0000251c                _Unwind_VRS_Set
+                0x00002938                _Unwind_VRS_Pop
+                0x00002c90                _Unwind_GetCFA
+                0x00002c98                __gnu_Unwind_RaiseException
+                0x00002d3c                __gnu_Unwind_ForcedUnwind
+                0x00002d58                __gnu_Unwind_Resume
+                0x00002dc4                __gnu_Unwind_Resume_or_Rethrow
+                0x00002de4                _Unwind_Complete
+                0x00002de8                _Unwind_DeleteException
+                0x00002e08                __gnu_Unwind_Backtrace
+ .text          0x00002ec8      0x1a8 /Users/jackiegleason/Development/Android/android-ndk-r8c/toolchains/arm-linux-androideabi-4.6/prebuilt/darwin-x86/bin/../lib/gcc/arm-linux-androideabi/4.6/libgcc.a(libunwind.o)
+                0x00002ec8                __restore_core_regs
+                0x00002ec8                restore_core_regs
+                0x00002edc                __gnu_Unwind_Restore_VFP
+                0x00002ee4                __gnu_Unwind_Save_VFP
+                0x00002eec                __gnu_Unwind_Restore_VFP_D
+                0x00002ef4                __gnu_Unwind_Save_VFP_D
+                0x00002efc                __gnu_Unwind_Restore_VFP_D_16_to_31
+                0x00002f04                __gnu_Unwind_Save_VFP_D_16_to_31
+                0x00002f0c                __gnu_Unwind_Restore_WMMXD
+                0x00002f50                __gnu_Unwind_Save_WMMXD
+                0x00002f94                __gnu_Unwind_Restore_WMMXC
+                0x00002fa8                __gnu_Unwind_Save_WMMXC
+                0x00002fbc                ___Unwind_RaiseException
+                0x00002fbc                _Unwind_RaiseException
+                0x00002fe0                ___Unwind_Resume
+                0x00002fe0                _Unwind_Resume
+                0x00003004                ___Unwind_Resume_or_Rethrow
+                0x00003004                _Unwind_Resume_or_Rethrow
+                0x00003028                ___Unwind_ForcedUnwind
+                0x00003028                _Unwind_ForcedUnwind
+                0x0000304c                ___Unwind_Backtrace
+                0x0000304c                _Unwind_Backtrace
+ .text          0xffffffffffffffff      0x4a0 /Users/jackiegleason/Development/Android/android-ndk-r8c/toolchains/arm-linux-androideabi-4.6/prebuilt/darwin-x86/bin/../lib/gcc/arm-linux-androideabi/4.6/libgcc.a(pr-support.o)
+                0x000030c8                __gnu_unwind_execute
+                0x0000345c                __gnu_unwind_frame
+                0x0000349c                _Unwind_GetRegionStart
+                0x000034c8                _Unwind_GetLanguageSpecificData
+                0x00003500                _Unwind_GetDataRelBase
+                0x00003508                _Unwind_GetTextRelBase
+ .text          0x00003510        0x0 /Users/jackiegleason/Development/Android/android-ndk-r8c/platforms/android-14/arch-arm/usr/lib/crtend_so.o
+
+.ARM.extab      0x00003510       0xb4
+ .ARM.extab.text._ZN11Application10initWindowEP11android_app
+                0x00003510        0xc /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/objs/simplena/src/Application.o
+ .ARM.extab.text._ZN11Application13handleCommandEP11android_appi
+                0x0000351c        0x0 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/objs/simplena/src/Application.o
+ .ARM.extab.text._ZL10handle_cmdP11android_appi
+                0x0000351c        0xc /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/objs/simplena/src/Application.o
+ .ARM.extab.text._ZN11Application3runEv
+                0x00003528        0x0 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/objs/simplena/src/Application.o
+ .ARM.extab.text.android_main
+                0x00003528        0x0 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/objs/simplena/src/main.o
+ .ARM.extab.text.free_saved_state
+                0x00003528        0x0 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .ARM.extab.text.android_app_entry
+                0x00003528        0x0 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .ARM.extab.text.process_input
+                0x00003528        0x0 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .ARM.extab.text.android_app_write_cmd
+                0x00003528        0x0 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .ARM.extab.text.onInputQueueDestroyed
+                0x00003528        0x0 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .ARM.extab.text.onInputQueueCreated
+                0x00003528        0x0 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .ARM.extab.text.android_app_set_window
+                0x00003528        0x0 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .ARM.extab.text.onNativeWindowDestroyed
+                0x00003528        0xc /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .ARM.extab.text.onNativeWindowCreated
+                0x00003534        0xc /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .ARM.extab.text.onWindowFocusChanged
+                0x00003540        0xc /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .ARM.extab.text.onLowMemory
+                0x0000354c        0xc /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .ARM.extab.text.onConfigurationChanged
+                0x00003558        0xc /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .ARM.extab.text.android_app_set_activity_state
+                0x00003564        0x0 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .ARM.extab.text.onStop
+                0x00003564        0xc /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .ARM.extab.text.onPause
+                0x00003570        0xc /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .ARM.extab.text.onResume
+                0x0000357c        0xc /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .ARM.extab.text.onStart
+                0x00003588        0xc /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .ARM.extab.text.onSaveInstanceState
+                0x00003594        0x0 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .ARM.extab.text.onDestroy
+                0x00003594        0x0 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .ARM.extab.text.android_app_read_cmd
+                0x00003594        0x0 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .ARM.extab.text.android_app_pre_exec_cmd
+                0x00003594        0x0 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .ARM.extab.text.android_app_post_exec_cmd
+                0x00003594        0x0 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .ARM.extab.text.process_cmd
+                0x00003594        0x0 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .ARM.extab.text.app_dummy
+                0x00003594        0x0 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .ARM.extab.text.ANativeActivity_onCreate
+                0x00003594        0xc /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .ARM.extab     0x000035a0       0x24 /Users/jackiegleason/Development/Android/android-ndk-r8c/toolchains/arm-linux-androideabi-4.6/prebuilt/darwin-x86/bin/../lib/gcc/arm-linux-androideabi/4.6/libgcc.a(unwind-arm.o)
+ .ARM.extab     0x000035c4        0x0 /Users/jackiegleason/Development/Android/android-ndk-r8c/toolchains/arm-linux-androideabi-4.6/prebuilt/darwin-x86/bin/../lib/gcc/arm-linux-androideabi/4.6/libgcc.a(pr-support.o)
+
+.ARM.exidx      0x000035c4      0x1a8
+ .ARM.exidx.text._ZN11Application10initWindowEP11android_app
+                0x000035c4        0x8 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/objs/simplena/src/Application.o
+ .ARM.exidx.text._ZN11Application13handleCommandEP11android_appi
+                0x000035cc        0x8 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/objs/simplena/src/Application.o
+ .ARM.exidx.text._ZL10handle_cmdP11android_appi
+                0x000035d4        0x8 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/objs/simplena/src/Application.o
+ .ARM.exidx.text._ZN11Application3runEv
+                0x000035dc        0x8 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/objs/simplena/src/Application.o
+ ** ARM cantunwind
+                0x000035e4        0x8
+ .ARM.exidx.text.android_main
+                0x000035ec        0x8 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/objs/simplena/src/main.o
+ ** ARM cantunwind
+                0x000035f4        0x8
+ .ARM.exidx.text.free_saved_state
+                0x000035fc        0x8 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .ARM.exidx.text.android_app_entry
+                0x00003604        0x8 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .ARM.exidx.text.process_input
+                0x0000360c        0x8 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .ARM.exidx.text.android_app_write_cmd
+                0x00003614        0x8 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .ARM.exidx.text.onInputQueueDestroyed
+                0x0000361c        0x8 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .ARM.exidx.text.android_app_set_window
+                0x00003624        0x8 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .ARM.exidx.text.onNativeWindowDestroyed
+                0x0000362c        0x8 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .ARM.exidx.text.onNativeWindowCreated
+                0x00003634        0x8 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .ARM.exidx.text.onWindowFocusChanged
+                0x0000363c        0x8 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .ARM.exidx.text.onLowMemory
+                0x00003644        0x8 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .ARM.exidx.text.onConfigurationChanged
+                0x0000364c        0x8 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .ARM.exidx.text.android_app_set_activity_state
+                0x00003654        0x8 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .ARM.exidx.text.onStop
+                0x0000365c        0x8 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .ARM.exidx.text.onPause
+                0x00003664        0x8 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .ARM.exidx.text.onResume
+                0x0000366c        0x8 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .ARM.exidx.text.onStart
+                0x00003674        0x8 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .ARM.exidx.text.onSaveInstanceState
+                0x0000367c        0x8 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .ARM.exidx.text.onDestroy
+                0x00003684        0x8 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .ARM.exidx.text.android_app_read_cmd
+                0x0000368c        0x8 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .ARM.exidx.text.android_app_pre_exec_cmd
+                0x00003694        0x8 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .ARM.exidx.text.android_app_post_exec_cmd
+                0x0000369c        0x8 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .ARM.exidx.text.app_dummy
+                0x000036a4        0x8 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .ARM.exidx.text.ANativeActivity_onCreate
+                0x000036ac        0x8 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+ ** ARM cantunwind
+                0x000036b4        0x8
+ .ARM.exidx     0xffffffffffffffff       0xb0 /Users/jackiegleason/Development/Android/android-ndk-r8c/toolchains/arm-linux-androideabi-4.6/prebuilt/darwin-x86/bin/../lib/gcc/arm-linux-androideabi/4.6/libgcc.a(unwind-arm.o)
+ ** ARM cantunwind
+                0x0000374c        0x8
+ .ARM.exidx     0xffffffffffffffff       0x38 /Users/jackiegleason/Development/Android/android-ndk-r8c/toolchains/arm-linux-androideabi-4.6/prebuilt/darwin-x86/bin/../lib/gcc/arm-linux-androideabi/4.6/libgcc.a(pr-support.o)
+
+.rodata         0x0000376c      0x150
+ .rodata        0x0000376c       0x2c /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/objs/simplena/src/Application.o
+ .rodata.str1.4
+                0x00003798       0x8c /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/objs/simplena/src/Application.o
+ .rodata.str1.4
+                0x00003824       0x98 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+
+.fini_array     0x00004de8        0x8
+ .fini_array    0x00004de8        0x4 /Users/jackiegleason/Development/Android/android-ndk-r8c/platforms/android-14/arch-arm/usr/lib/crtbegin_so.o
+ .fini_array    0x00004dec        0x4 /Users/jackiegleason/Development/Android/android-ndk-r8c/platforms/android-14/arch-arm/usr/lib/crtend_so.o
+
+.init_array     0x00004df0        0x4
+ .init_array    0x00004df0        0x4 /Users/jackiegleason/Development/Android/android-ndk-r8c/platforms/android-14/arch-arm/usr/lib/crtend_so.o
+
+.dynamic        0x00004df4      0x118
+ ** dynamic     0x00004df4      0x118
+
+.got            0x00004f0c       0xf4
+ ** GOT         0x00004f0c       0x1c
+ ** GOT PLT     0x00004f28       0xd8
+
+.data           0x00005000        0x4
+ .data          0x00005000        0x4 /Users/jackiegleason/Development/Android/android-ndk-r8c/platforms/android-14/arch-arm/usr/lib/crtbegin_so.o
+                0x00005000                __dso_handle
+ .data          0x00005004        0x0 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/objs/simplena/src/Application.o
+ .data          0x00005004        0x0 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/objs/simplena/src/main.o
+ .data          0x00005004        0x0 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .data          0x00005004        0x0 /Users/jackiegleason/Development/Android/android-ndk-r8c/toolchains/arm-linux-androideabi-4.6/prebuilt/darwin-x86/bin/../lib/gcc/arm-linux-androideabi/4.6/libgcc.a(_thumb1_case_uqi.o)
+ .data          0x00005004        0x0 /Users/jackiegleason/Development/Android/android-ndk-r8c/toolchains/arm-linux-androideabi-4.6/prebuilt/darwin-x86/bin/../lib/gcc/arm-linux-androideabi/4.6/libgcc.a(unwind-arm.o)
+ .data          0x00005004        0x0 /Users/jackiegleason/Development/Android/android-ndk-r8c/toolchains/arm-linux-androideabi-4.6/prebuilt/darwin-x86/bin/../lib/gcc/arm-linux-androideabi/4.6/libgcc.a(libunwind.o)
+ .data          0x00005004        0x0 /Users/jackiegleason/Development/Android/android-ndk-r8c/toolchains/arm-linux-androideabi-4.6/prebuilt/darwin-x86/bin/../lib/gcc/arm-linux-androideabi/4.6/libgcc.a(pr-support.o)
+ .data          0x00005004        0x0 /Users/jackiegleason/Development/Android/android-ndk-r8c/platforms/android-14/arch-arm/usr/lib/crtend_so.o
+
+.bss            0x00005004        0x0
+ .bss           0x00005004        0x0 /Users/jackiegleason/Development/Android/android-ndk-r8c/platforms/android-14/arch-arm/usr/lib/crtbegin_so.o
+ .bss           0x00005004        0x0 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/objs/simplena/src/Application.o
+ .bss           0x00005004        0x0 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/objs/simplena/src/main.o
+ .bss           0x00005004        0x0 /Users/jackiegleason/Development/gles2-native/obj/local/armeabi/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .bss           0x00005004        0x0 /Users/jackiegleason/Development/Android/android-ndk-r8c/toolchains/arm-linux-androideabi-4.6/prebuilt/darwin-x86/bin/../lib/gcc/arm-linux-androideabi/4.6/libgcc.a(_thumb1_case_uqi.o)
+ .bss           0x00005004        0x0 /Users/jackiegleason/Development/Android/android-ndk-r8c/toolchains/arm-linux-androideabi-4.6/prebuilt/darwin-x86/bin/../lib/gcc/arm-linux-androideabi/4.6/libgcc.a(unwind-arm.o)
+ .bss           0x00005004        0x0 /Users/jackiegleason/Development/Android/android-ndk-r8c/toolchains/arm-linux-androideabi-4.6/prebuilt/darwin-x86/bin/../lib/gcc/arm-linux-androideabi/4.6/libgcc.a(libunwind.o)
+ .bss           0x00005004        0x0 /Users/jackiegleason/Development/Android/android-ndk-r8c/toolchains/arm-linux-androideabi-4.6/prebuilt/darwin-x86/bin/../lib/gcc/arm-linux-androideabi/4.6/libgcc.a(pr-support.o)
+ .bss           0x00005004        0x0 /Users/jackiegleason/Development/Android/android-ndk-r8c/platforms/android-14/arch-arm/usr/lib/crtend_so.o
